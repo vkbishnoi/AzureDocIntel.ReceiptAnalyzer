@@ -15,7 +15,7 @@
     <PackageTags>azure;document-intelligence;receipt;ocr</PackageTags>
 
     <!-- Open source metadata -->
-    <RepositoryUrl>https://github.com/&lt;your-username&gt;/AzureDocIntel.ReceiptAnalyzer</RepositoryUrl>
+    <RepositoryUrl>https://github.com/vkbishnoi/AzureDocIntel.ReceiptAnalyzer</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
