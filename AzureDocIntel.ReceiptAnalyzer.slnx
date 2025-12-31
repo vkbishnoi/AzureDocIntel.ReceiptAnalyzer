@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../../Dumping/DocIntel/DocIntel.csproj" />
+  <Project Path="AzureDocIntel.ReceiptAnalyzer.csproj" />
+</Solution>

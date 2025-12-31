@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+
+    <!-- Existing settings -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet package metadata -->
+    <PackageId>AzureDocIntel.ReceiptAnalyzer</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Vishal Bishnoi</Authors>
+    <Description>Lightweight Azure AI Document Intelligence receipt analyzer using the prebuilt-receipt model.</Description>
+    <PackageTags>azure;document-intelligence;receipt;ocr</PackageTags>
+
+    <!-- Open source metadata -->
+    <RepositoryUrl>https://github.com/&lt;your-username&gt;/AzureDocIntel.ReceiptAnalyzer</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.DocumentIntelligence" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
