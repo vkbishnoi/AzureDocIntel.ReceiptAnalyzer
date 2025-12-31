@@ -35,3 +35,21 @@ Once published to NuGet:
 
 ```bash
 dotnet add package AzureDocIntel.ReceiptAnalyzer
+```
+
+## Usage
+```csharp
+using AzureDocIntel.ReceiptAnalyzer;
+
+var analyzer = new ReceiptImageAnalyzer(
+    endpoint: "https://<your-resource>.cognitiveservices.azure.com/",
+    apiKey: "<your-api-key>");
+
+byte[] imageBytes = File.ReadAllBytes("receipt.jpg");
+
+var result = await analyzer.AnalyzeAsync(
+    imageBytes,
+    includeOcrContent: true);
+
+Console.WriteLine(result.Summary.MerchantName);
+
